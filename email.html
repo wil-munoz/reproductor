@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Auto Shop</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        @media only screen and (min-width: 768px) {
+            main {
+                width: 768px;
+                margin: auto;
+            }
+            .home-intro {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+            }
+
+            .home-intro > div {
+                width: 49%;
+            }
+
+            .home-intro > div:nth-child(1) {
+                margin-bottom: 15px;
+            }
+
+            .home-intro > div:nth-child(2) {
+                margin-top: 0 !important;
+                margin-bottom: 15px;
+            }
+
+            .home-intro > div:nth-child(4) {
+                margin-top: 0 !important;
+            }
+
+            .ofertas {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+
+            .ofertas > div {
+                border: red 1px solid ;
+                width: 49%;
+            }
+
+            .ofertas > div:nth-child(2) {
+                margin-top: 0 !important;
+            }
+
+            .ofertas > div:nth-child(1), .ofertas > div:nth-child(2) {
+                margin-bottom: 15px; !important;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<main>
+    <section style="position: relative; color: #FFFFFF; font-family: Montserrat, sans-serif;">
+        <img src="https://raw.githubusercontent.com/wil-munoz/auto-shop/refs/heads/main/slider2.webp" style="width: 100%;" alt="">
+        <div style="position: absolute; top: 50%; left:35%; transform: translate(-35%, -50%)">
+            <h1 >¡Revoluciona tu auto! Ofertas exclusivas en nuestro AutoShop!</h1>
+            <a href="https://joaquintrivelloni.github.io/Car-Product/index.html" target="_blank" style="background: red; color: #FFFFFF; padding: 10px; text-decoration: none; display: inline-block; margin-top: 10px;">Contactar</a>
+        </div>
+    </section>
+    <section style="font-family: Montserrat, sans-serif;">
+        <div style="padding: 14px;">
+            <p>En AutoShop, entendemos que tu vehículo es más que un medio de transporte, ¡es parte de tu vida! Por eso, te ofrecemos increíbles descuentos en nuestros servicios y productos para mantenerlo en óptimas condiciones.</p>
+        </div>
+
+        <h2 style="margin: 20px 0; text-align: center;">Servicios destacados</h2>
+       <div class="home-intro">
+           <div style="position: relative; ">
+               <img src="https://github.com/wil-munoz/auto-shop/blob/main/tratamiento.jpg?raw=true" style="width: 100%" alt="">
+               <div style="position:absolute; text-align: center; background-color: rgba(0, 0, 0, 0.7); top: 0; bottom: 0; width: 100%;">
+                   <p style="position: absolute; top:50%; left: 50%; transform: translate(-50%, -50%); color: #FFFFFF; text-transform: uppercase; font-weight: 800; font-size: 40px;">Tramientos</p>
+               </div>
+           </div>
+
+           <div style="position: relative; margin:  15px 0;">
+               <img src="https://github.com/JoaquinTrivelloni/Car-Product/blob/main/imgs/ruedas.jpg?raw=true" style="width: 100%" alt="">
+               <div style="position:absolute; text-align: center; background-color: rgba(0, 0, 0, 0.7); top: 0; bottom: 0; width: 100%;">
+                   <p style="position: absolute; top:50%; left: 50%; transform: translate(-50%, -50%); color: #FFFFFF; text-transform: uppercase; font-weight: 800; font-size: 40px;">Ruedas</p>
+               </div>
+           </div>
+
+           <div style="position: relative; ">
+               <img src="https://github.com/JoaquinTrivelloni/Car-Product/blob/main/imgs/limpieza.jpg?raw=true" style="width: 100%" alt="">
+               <div style="position:absolute; text-align: center; background-color: rgba(0, 0, 0, 0.7); top: 0; bottom: 0; width: 100%;">
+                   <p style="position: absolute; top:50%; left: 50%; transform: translate(-50%, -50%); color: #FFFFFF; text-transform: uppercase; font-weight: 800; font-size: 40px;">Limpieza</p>
+               </div>
+           </div>
+
+           <div style="position: relative; margin-top: 15px; ">
+               <img src="https://github.com/JoaquinTrivelloni/Car-Product/blob/main/imgs/reparacion.jpeg?raw=true" style="width: 100%" alt="">
+               <div style="position:absolute; text-align: center; background-color: rgba(0, 0, 0, 0.7); top: 0; bottom: 0; width: 100%;">
+                   <p style="position: absolute; top:50%; left: 50%; transform: translate(-50%, -50%); color: #FFFFFF; text-transform: uppercase; font-weight: 800; font-size: 40px;">Reparación</p>
+               </div>
+           </div>
+
+       </div>
+    </section>
+
+    <section style="font-family: Montserrat, sans-serif; margin-bottom: 20px">
+        <h2 style="text-align: center; margin: 30px 0;">Ofertas Especiales</h2>
+        <div class="ofertas">
+            <div style="text-align: center">
+                <img src="https://github.com/JoaquinTrivelloni/Car-Product/blob/main/imgs/ruedas.jpg?raw=true" style="width: 100%" alt="">
+                <p style="margin-top: 10px">Neumaticos para auto</p>
+                <p style="font-weight: 900; margin: 15px;">$500.00</p>
+                <a href="https://joaquintrivelloni.github.io/Car-Product/productos.html" target="_blank" style="background: red; color: #FFFFFF; padding: 10px; text-decoration: none; display: inline-block; margin-bottom: 20px;">Comprar</a>
+            </div>
+            <div style="text-align: center">
+                <img src="https://github.com/JoaquinTrivelloni/Car-Product/raw/refs/heads/main/imgs/bateria.webp" style="width: 100%" alt="">
+                <p style="margin-top: 10px">Batería 12x65</p>
+                <p style="font-weight: 900; margin: 15px;">$117.000</p>
+                <a href="https://joaquintrivelloni.github.io/Car-Product/productos.html" target="_blank" style="background: red; color: #FFFFFF; padding: 10px; text-decoration: none; display: inline-block; margin-bottom: 20px;">Comprar</a>
+            </div>
+            <div style="text-align: center">
+                <img src="https://github.com/JoaquinTrivelloni/Car-Product/blob/main/imgs/aceite.png?raw=true" style="width: 100%" alt="">
+                <p style="margin-top: 10px">Aceite para motor Total Quartz</p>
+                <p style="font-weight: 900; margin: 15px;">$54.000</p>
+                <a href="https://joaquintrivelloni.github.io/Car-Product/productos.html" target="_blank" style="background: red; color: #FFFFFF; padding: 10px; text-decoration: none; display: inline-block; margin-bottom: 20px;">Comprar</a>
+            </div>
+            <div style="text-align: center;">
+                <img src="https://github.com/JoaquinTrivelloni/Car-Product/blob/main/imgs/tazas.jpg?raw=true" style="width: 100%" alt="">
+                <p style="margin-top: 10px">Juego 4 Tazas De Rueda</p>
+                <p style="font-weight: 900; margin: 15px;">$54.000</p>
+                <a href="https://joaquintrivelloni.github.io/Car-Product/productos.html" target="_blank" style="background: red; color: #FFFFFF; padding: 10px; text-decoration: none; display: inline-block; margin-bottom: 20px;">Comprar</a>
+            </div>
+        </div>
+    </section>
+    <section style="background: #071C21; display: flex; justify-content: space-between; align-items: center; font-family: Montserrat, sans-serif;">
+        <div style="padding: 12px; width: 65%; text-align: center;">
+            <p style="color: #FFFFFF; font-size: 40px; text-align: center;">4621 – 0031</p>
+            <a style="background: red; color: #FFFFFF; padding: 10px; text-decoration: none; display: inline-block; margin-top: 20px; " href="https://joaquintrivelloni.github.io/Car-Product/index.html" target="_blank" >Contáctanos</a>
+        </div>
+        <div style="width: 32%;">
+            <img src="https://github.com/JoaquinTrivelloni/Car-Product/blob/main/11.png?raw=true" style=" height: 200px;" alt="">
+        </div>
+    </section>
+</main>
+<footer style=" background: #2B2E32; text-align: center; padding: 12px; color: #FFFFFF">
+    <p>Todos los derechos reservados</p>
+</footer>
+
+
+</body>
+</html>
